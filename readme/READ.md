@@ -13,6 +13,10 @@ Test: return an empty string if given an empty string.
 Code: pigLatin("");
 Expected Output: "";
 
+Test: if input is given non-letters like symbols, they should be ignored.
+Code: pigLatin("%!%!$#^2193`87469");
+Expected Output: "";
+
 Test: "It will add 'way' to the end of words that begin with a vowel."
 Code: pigLatin("a");
 Expected Output: "away"
